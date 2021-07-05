@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+.color {
+  color: #4a9ad8;
+}
+#main-header {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  background-color: #7cb9e8;
+  text-decoration: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list-style {
+  display: inline;
+  margin: 30px 50px 30px 50px;
+  font-size: 2em;
+}
+
+.list-style a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.list-style a:hover {
+  color: rgb(114, 36, 145);
+}
+
+#about {
+  display: flex;
+  padding-top: 40px;
+  /* height: calc(100vh - 130px); */
+  height: 650px;
+
+  background-color: whitesmoke;
+}
+
+.left-side {
+  width: 62%;
+  padding: 2em;
+}
+
+.left-side h1 {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+.left-side p {
+  color: grey;
+  line-height: 2em;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  background-color: #7cb9e8;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: rgb(114, 36, 145);
+}
+
+.btn a:hover {
+  color: white;
+}
+
+.right-side {
+  width: 38%;
+  text-align: center;
+  padding: 2em;
+}
+
+.right-side img {
+  width: 90%;
+}
+
+/* project */
+#bg-color {
+  background-color: gainsboro;
+}
+#bg-color h1 {
+  text-align: center;
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 5em;
+  grid-row-gap: 4em;
+  padding: 30px 60px 60px 60px;
+}
+
+#projects div {
+  background-color: floralwhite;
+  border-radius: 10px;
+}
+
+#projects div img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.project-box {
+  box-shadow: -12px 12px 25px 4px rgba(81, 76, 76, 0.68);
+}
+
+.project-box h1 {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.project-box h3,
+p {
+  margin: 15px 0 15px 0;
+  padding-left: 10px;
+  padding-right: 15px;
+  font-weight: 700;
+}
+
+.project-box p {
+  line-height: 1.5em;
+  font-size: 17px;
+}
+
+/* contact 0 */
+#contact {
+  background-color: rgb(68, 63, 63);
+}
+#contact-style {
+  width: 650px;
+  /* margin: 20px auto 25px; */
+  overflow: hidden;
+  padding: 50px 0;
+  margin: auto;
+}
+#contact-style input,
+textarea {
+  color: white;
+}
+.contact-item {
+  padding: 16px;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px 0 0px 0;
+  color: blanchedalmond;
+}
+
+.name input {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 25px;
+  margin: 0 5px 0 0;
+  border: none;
+  background-color: rgb(34, 31, 31);
+  border-radius: 20px;
+}
+
+.name input::placeholder {
+  padding-left: 16px;
+  color: blanchedalmond;
+}
+
+.email input {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 25px;
+  margin: 0 15px 0 0;
+  border: none;
+  background-color: rgb(34, 31, 31);
+  border-radius: 20px;
+}
+
+.email input::placeholder {
+  padding-left: 16px;
+  color: blanchedalmond;
+}
+
+.number input {
+  width: 100%;
+  padding: 20px 0;
+  font-size: 25px;
+  margin: 0 5px 0 0;
+  border: none;
+  background-color: rgb(34, 31, 31);
+  border-radius: 20px;
+}
+
+.number input::placeholder {
+  padding-left: 16px;
+  color: blanchedalmond;
+}
+
+.em-num {
+  display: flex;
+  gap: 25px;
+}
+
+.message textarea {
+  width: 100%;
+  height: 100px;
+  padding: 20px 0;
+  font-size: 25px;
+  margin: 0 5px 0 0;
+  border: none;
+  background-color: rgb(34, 31, 31);
+  border-radius: 20px;
+}
+
+.message textarea::placeholder {
+  padding-left: 16px;
+  color: blanchedalmond;
+}
+
+.submit a {
+  padding: 0 30px;
+}
+
+#contact button {
+  float: right;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+input,
+textarea {
+  outline: none;
+}
